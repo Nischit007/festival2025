@@ -42,8 +42,7 @@ const OrbitGallery: React.FC<OrbitGalleryProps> = ({
     }
 
     // Enhanced controls with keyboard and mouse support
-    let mouseX = 0;
-    let mouseY = 0;
+  
     let targetRotationX = 0;
     let targetRotationY = 0;
     let rotationX = 0;

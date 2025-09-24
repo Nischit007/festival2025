@@ -35,10 +35,9 @@ const About = () => {
             />
             </div>
              <div className="relative z-10">
-            <div className='px-20'>
-        <p className='font-medium text-3xl'>Stories for Change 2025 is a global digital media festival that amplifies</p>
+            <div className=''>
         </div>
-        <p className='font-medium text-3xl'> community voices and celebrates grassroots action. Through film, photography, and storytelling, it brings to life the struggles and triumphs of ordinary people who are driving extraordinary change. More than just a showcase, the festival is a movement — rooted in community philanthropy and the #ShiftThePower vision, where communities everywhere take the lead in shaping their futures. 🚀</p>
+        <p className='font-medium text-3xl'> Stories for Change 2025 is a global digital media festival that amplifies community voices and celebrates grassroots action. Through film, photography, and storytelling, it brings to life the struggles and triumphs of ordinary people who are driving extraordinary change. More than just a showcase, the festival is a movement — rooted in community philanthropy and the #ShiftThePower vision, where communities everywhere take the lead in shaping their futures. 🚀</p>
         </div>
         
         <div className="space-y-2 relative z-10">

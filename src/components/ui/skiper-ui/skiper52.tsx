@@ -9,7 +9,7 @@ import art8 from '../../../assets/images/Gallery18.jpg'
 import art9 from '../../../assets/images/Gallery24.jpeg'
 
 import { AnimatePresence, motion } from "framer-motion";
-import React, { useState } from "react";
+import  { useState } from "react";
 import { cn } from '../../../lib/utils'
 
 const Skiper52 = () => {

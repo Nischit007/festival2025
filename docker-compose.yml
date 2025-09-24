@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  react-app:
+    build: .
+    ports:
+      - "4173:4173" # Map container 4173 to host 4173
+    restart: always
