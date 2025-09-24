@@ -18,7 +18,7 @@ const Works = () => {
             </div>  
             <div className='border-t-[1px] border-gray-300'></div>
             </div>
-            <div className="space-y-2 relative z-10">
+            <div className="space-y-4 relative z-10">
           <div className="">
             <div className="flex justify-start">
             <p className="relative z-10 text-base max-w-xl font-medium mt-1">
@@ -27,7 +27,7 @@ const Works = () => {
             </div>  
             <div className='border-t-[1px] border-gray-300'></div>
             </div>
-            <div className="space-y-2 relative z-10">
+            <div className="space-y-4 relative z-10">
           <div className="">
             <div className="flex justify-start">
             <p className="relative z-10 text-base max-w-xl font-medium mt-1">
@@ -36,7 +36,7 @@ const Works = () => {
             </div>  
             <div className='border-t-[1px] border-gray-300'></div>
             </div>
-            <div className="space-y-2 relative z-10">
+            <div className="space-y-4 relative z-10">
           <div className="">
             <div className="flex justify-start">
             <p className="relative z-10 text-base max-w-xl font-medium mt-1">
