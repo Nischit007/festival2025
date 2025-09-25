@@ -23,7 +23,7 @@ const Lgbtq = () => {
             </div>
             <div className='border-t-[2px] border-gray-600 w-3/4'></div>
             <div>
-            <p className="text-xl font-[muli]">The fight for LGBTQ+ rights is about more than identity — it’s about dignity, equality, and the right for everyone to live free from discrimination. Across communities, individuals and organizations are working to challenge stigma, amplify queer voices, and build societies where diversity is celebrated, not silenced.</p>
+            <p className="text-3xl font-[muli]">The fight for LGBTQ+ rights is about more than identity — it’s about dignity, equality, and the right for everyone to live free from discrimination. Across communities, individuals and organizations are working to challenge stigma, amplify queer voices, and build societies where diversity is celebrated, not silenced.</p>
           </div>
           </div>
           <div className="flex justify-between overflow-hidden gap-5">
