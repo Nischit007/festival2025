@@ -42,7 +42,7 @@ const SocialIssue = () => {
      <div className='border-t-[1px] border-gray-300'></div>
      <h3 className="font-[playfair] text-3xl">Theme of change</h3>
     <div>
-        <p className='font-[muli] text-3xl'>At the heart of Stories for Change 2025 are ten powerful Themes of Change — each one shining a light on a pressing issue that shapes our societies. These themes are not abstract ideas; they are lived realities told through stories of resilience, art, and activism. From confronting child marriage to fighting for climate justice, from amplifying indigenous voices to celebrating the role of art in activism, each theme invites you to step closer, listen deeply, and join the movement for change.</p>
+        <p className='font-[muli] text-3xl'>At the heart of Stories for Change 2025 are xx powerful Themes of Change — each one shining a light on a pressing issue that shapes our societies. These themes are not abstract ideas; they are lived realities told through stories of resilience, art, and activism. From confronting child marriage to fighting for climate justice, from amplifying indigenous voices to celebrating the role of art in activism, each theme invites you to step closer, listen deeply, and join the movement for change.</p>
     </div>
         {/* <div className="flex items-center gap-4 w-full cursor-pointer ">
             <div className="flex flex-col gap-2">

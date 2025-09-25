@@ -1,5 +1,5 @@
 import PartnersList from "./PartnersList"
-import SocialIssue from "./SocialIssue/SocialIssue"
+
 
 
 
@@ -10,7 +10,6 @@ const Partners = () => {
             <div className='flex flex-col gap-10'>
              <span className='text-3xl max-w-lg font-[playfair]'>We’ve built long-lasting partnerships with the most ambitious organization across the globe:</span>
                <PartnersList/>
-               <SocialIssue/>
              </div>
         </div>
     </div>

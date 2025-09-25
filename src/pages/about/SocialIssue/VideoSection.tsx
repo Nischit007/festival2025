@@ -16,7 +16,7 @@ const VideoSection = () => {
         muted={true}     
         loop={true}      
         width="100%"
-        height="1000px"
+        height="700px"
         style={{ borderRadius: '8px', overflow: 'hidden' }}
     />
     <div className="absolute bottom-3 right-3 bg-black/70 text-white text-xs px-2 py-1 rounded-md">

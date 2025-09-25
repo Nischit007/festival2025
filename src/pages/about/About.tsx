@@ -2,6 +2,10 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
 import shiftThePower from './../../assets/ShiftThePower.mp4';
 import Partners from "./Partners";
+import NarrativeCards from "./Naratives";
+import storiesforchangelogo from '../../assets/images/storiesforchange.png'
+import SocialIssue from "./SocialIssue/SocialIssue";
+import { useNavigate } from "react-router-dom";
 
 
 const About = () => {
@@ -10,19 +14,20 @@ const About = () => {
     target: ref,
   });
 
+  const navigate = useNavigate();
+
   return (
     <div>
     <section
       ref={ref}
-      className=" relative mx-auto flex h-auto w-full flex-col  overflow-hidden bg-[#FAFDEE] px-20"
+      className=" relative mx-auto flex h-auto w-full flex-col overflow-hidden bg-[#FAFDEE] px-20"
     >
       <div className="mt-20 w-fit flex flex-col gap-10">
        <div className="flex items-center justify-center">
         <div>
-        <h1 className="font-[playfair] relative z-10 text-5xl font-bold items-center -translate-x-20 lg:text-8xl">
-        Stories for
-        </h1>
-        <h1 className="font-[playfair]  relative z-10 text-5xl font-bold items-center translate-x-28 lg:text-8xl">Change</h1>
+          <div className="max-w-lg max-h-lg cursor-pointer"  onClick={() => navigate('/')}>
+       <img src={storiesforchangelogo} className="object-cover w-full h-full"/>
+       </div>
         </div>
         </div>
 
@@ -74,9 +79,11 @@ const About = () => {
             </div>  
             <div className='border-t-[1px] border-gray-300'></div>
             </div>
+            <NarrativeCards/>
+            <SocialIssue/>
             <Partners/>
         <LinePath
-          className="absolute top-0 z-0"
+          className="absolute top-70 z-0"
           scrollYProgress={scrollYProgress}
         />
      

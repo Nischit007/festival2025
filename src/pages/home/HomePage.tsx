@@ -4,6 +4,7 @@ import exhibition from './../../assets/Exhibition.mp4'
 import { useNavigate } from 'react-router-dom';
 import gsap from 'gsap';
 import { useRef, useEffect } from 'react'; 
+import logo from '../../assets/images/storiesforchange.png';
 
 const HomePage = () => {
   const page1Ref = useRef<HTMLDivElement>(null);
@@ -63,15 +64,18 @@ const HomePage = () => {
          </div>
         <Video/>
         </div>
+        <div className='absolute z-10 top-10 left-10 max-w-[200px] max-h-[200px]'>
+          <img src={logo} className='object-cover h-full w-full'/>
+          </div>
         <div className='absolute z-20 text-white top-10 left-10 w-full text-center pt-5 font-[anton]'>
         <div className='text-[6vw] uppercase leading-[7vw] flex items-center justify-center'>Stories</div>
-        <div className='text-[6vw] uppercase leading-[7vw] flex items-start justify-center gap-2'>for
+        <div className='text-[6vw] uppercase leading-[8vw] flex items-center justify-center'>for Change</div>
+        <div className='text-[6vw] uppercase leading-[7vw] flex items-start justify-center gap-2'>Festival
             <div className='h-[7vw] w-[16vw] rounded-full overflow-hidden' >
             <div className='h-full w-full'>
             <video className='h-full w-full object-cover' autoPlay loop muted src={exhibition}/>
             </div>
-            </div> Change</div>
-        <div className='text-[6vw] uppercase leading-[8vw] flex items-center justify-center'>Festival 2025</div>
+            </div>2025</div>
     </div>
     <div className='flex items-center justify-center cursor-pointer'>
     <button onClick={handleClick} className="

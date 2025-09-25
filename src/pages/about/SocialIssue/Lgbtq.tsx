@@ -2,15 +2,23 @@
 import { Gallery } from "./Gallery";
 import VideoSection from "./VideoSection";
 import Works from "./Works";
+import logo from '../../../assets/images/storiesforchange.png'
+import { useNavigate } from "react-router-dom";
 
 const Lgbtq = () => {
 
+  const navigate = useNavigate()
+
   return (
     <div className="h-auto bg-[#FAFDEE] w-full">
+       <div className='absolute z-10 top-10 left-10 max-w-[200px] max-h-[200px] cursor-pointer'  onClick={() => navigate('/')}>
+          <img src={logo} className='object-cover h-full w-full'/>
+          </div>
            <div className='grid grid-cols-2 gap-4'>
           <div className=''>
             <img  src='https://img.freepik.com/premium-photo/lgbt-pride-gay-rights-peace-freedom-diversity-harmony-graceful-woman-hands-blur-rainbow-lights-iridescent-blue-red-green-yellow-color-gradient-glow-dark-empty-space-background_279525-10244.jpg' className='h-screen w-full object-cover' />
           </div>
+
           
           <div className='flex flex-col gap-10 lg:text-7xl text-5xl py-20 px-20'>
             <div className="flex flex-col gap-4">

@@ -14,7 +14,7 @@ const Section2 = () => {
   
   return (
     <div>
-    <div className='h-auto w-full px-20 py-10'>
+    <div className='h-auto w-full px-20 py-10 bg-[#FAFDEE]'>
         <div className='flex flex-col gap-10'>
           <div>
         {/* <p className='font-medium text-3xl'>Stories for Change is a global video and digital media project created by and for the Giving for Change Alliance and the wider #ShiftThePower movement. It celebrates community philanthropy, documents lived experiences of people
@@ -110,16 +110,16 @@ const Section2 = () => {
       </div>
     </div>
     <div className="rounded-4xl font-[playfair] w-full  bg-[#1F3A4B] text-[#FAFDEE]">
-        <h1 className="mt-10 text-center text-[10.5vw] font-bold leading-[0.9] tracking-tighter lg:text-[14.6vw]">
-          StoriesofChange
+        <h1 className="mt-10 text-center text-[10.5vw] font-bold leading-[0.9] tracking-tighter lg:text-[13.6vw]">
+          StoriesforChange
         </h1>
         <div className="mt-80 flex w-full flex-col items-start gap-5 px-4 font-medium lg:mt-0 lg:flex-row lg:justify-between">
           <div className="flex w-full items-center justify-between gap-12 uppercase lg:w-fit lg:justify-center">
-            <p className="w-fit text-lg">
+            {/* <p className="w-fit text-lg">
               USA <br />
-            </p>
+            </p> */}
             <p className="w-fit text-right text-lg lg:text-left">
-              Oct 5, 2025 <br /> 
+              Dec 5, 2025 <br /> 
             </p>
           </div>
           <div className="flex w-full flex-wrap items-center justify-between gap-12 uppercase lg:w-fit lg:justify-center">
