@@ -92,14 +92,14 @@ const HomePage = () => {
     hover:shadow-lg
     active:scale-95
     absolute
-    top-130
+    top-170
     z-20
 ">
     Start Your Journey
 </button>
 </div>
 
-    <div className='absolute z-20 top-120 right-10 text-base font-[muli] font-black text-white max-w-96 text-justify'>
+    <div className='absolute z-20 top-150 right-10 text-lg font-[muli] font-black text-white max-w-96 text-justify'>
        <span>Join us in a global celebration of art and community philanthropy. Experience digital art, documentaries, short films, and paintings created by inspiring changemakers who are reimagining how communities give, share, and transform together.</span>
     </div>
         </div>

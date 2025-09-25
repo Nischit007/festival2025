@@ -10,7 +10,7 @@ const HomeHeroText = () => {
             </div> Change</div>
         <div className='text-[6vw] uppercase leading-[8vw] flex items-center justify-center'>Festival 2025</div>
     </div>
-    <div className='bottom-20 right-10 text-base font-bold text-white max-w-96 absolute text-justify'>
+    <div className='bottom-20 right-10 font-[muli] text-base font-bold text-white max-w-96 absolute text-justify'>
        <span>Join us in a global celebration of art and community philanthropy. Experience digital art, documentaries, short films, and paintings created by inspiring changemakers who are reimagining how communities give, share, and transform together.</span>
     </div>
     </>

@@ -46,7 +46,7 @@ const Gallery = () => {
 
 
   return (
-    <div className=" pt-10 pb-10 px-10 flex flex-col gap-8 md:gap-10">
+    <div className=" pt-10 pb-10 px-20 flex flex-col gap-8 md:gap-10">
       <div className="flex flex-col items-start">
         <h3 className="text-4xl font-[playfair]">Stories in Pictures</h3>
         <AnimatePresence mode="wait">

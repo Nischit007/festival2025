@@ -14,7 +14,7 @@ const About = () => {
     <div>
     <section
       ref={ref}
-      className=" relative mx-auto flex h-auto w-full flex-col  overflow-hidden bg-[#FAFDEE] px-10"
+      className=" relative mx-auto flex h-auto w-full flex-col  overflow-hidden bg-[#FAFDEE] px-20"
     >
       <div className="mt-20 w-fit flex flex-col gap-10">
        <div className="flex items-center justify-center">
@@ -37,7 +37,7 @@ const About = () => {
              <div className="relative z-10">
             <div className=''>
         </div>
-        <p className='font-[muli] text-3xl'> Stories for Change 2025 is a global digital media festival that amplifies community voices and celebrates grassroots action. Through film, photography, and storytelling, it brings to life the struggles and triumphs of ordinary people who are driving extraordinary change. More than just a showcase, the festival is a movement — rooted in community philanthropy and the #ShiftThePower vision, where communities everywhere take the lead in shaping their futures.</p>
+        <p className='font-[muli] text-3xl '> Stories for Change 2025 is a global digital media festival that amplifies community voices and celebrates grassroots action. Through film, photography, and storytelling, it brings to life the struggles and triumphs of ordinary people who are driving extraordinary change. More than just a showcase, the festival is a movement — rooted in community philanthropy and the #ShiftThePower vision, where communities everywhere take the lead in shaping their futures.</p>
         </div>
         
         <div className="space-y-2 relative z-10">
@@ -47,7 +47,7 @@ const About = () => {
              <h1 className="text-3xl font-[playfair]">Why Stories? </h1>
             </div>
             <div className="flex justify-end">
-            <p className="relative z-10 text-base max-w-xl font-[muli]">
+            <p className="relative z-10 text-lg max-w-xl font-[muli]">
             Stories are more than just words — they are the threads that connect people, places, and possibilities. Facts and statistics can inform, but stories move hearts, shift perspectives, and inspire action. By sharing lived experiences, we make complex issues human and relatable.</p>
               </div>
             </div>  
@@ -56,7 +56,7 @@ const About = () => {
             <div className="space-y-2 relative z-10">
           <div className="">
             <div className="flex justify-end">
-            <p className="relative z-10 text-base max-w-xl font-[muli]">
+            <p className="relative z-10 text-lg max-w-xl font-[muli]">
             At Stories for Change 2025, stories aren’t just narratives — they are tools for justice, empathy, and transformation. Through film, photography, art, and oral testimony, we capture voices often left unheard. When these voices come together, they create a powerful collective memory that challenges injustice and sparks the courage to imagine a better future.</p>
               </div>
             </div>  
@@ -66,7 +66,7 @@ const About = () => {
             <div className="space-y-2 relative z-10">
           <div className="">
             <div className="flex justify-end">
-            <p className="relative z-10 text-base max-w-xl font-[muli]">
+            <p className="relative z-10 text-lg max-w-xl font-[muli]">
             Stories remind us that change is not abstract. It lives in the resilience of a community rebuilding after climate disaster, in the courage of a young activist speaking truth to power, or in the quiet strength of a caregiver fighting for dignity. Each story has the power to ripple outward — inspiring dialogue, mobilizing movements, and shaping policies</p>
               </div>
             </div>  

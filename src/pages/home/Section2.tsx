@@ -13,7 +13,7 @@ const Section2 = () => {
   const paragraph='Stories for Change is a global video and digital media project created by and for the Giving for Change Alliance and the wider #ShiftThePower movement. It celebrates community philanthropy, documents lived experiences of people building change from the ground up, and amplifies voices often left out of dominant development narratives.'
   
   return (
-    <div className='h-auto w-full px-10 mt-14 mb-10'>
+    <div className='h-auto w-full px-20 mt-14 mb-10'>
         <div className='flex flex-col gap-10'>
           <div>
         {/* <p className='font-medium text-3xl'>Stories for Change is a global video and digital media project created by and for the Giving for Change Alliance and the wider #ShiftThePower movement. It celebrates community philanthropy, documents lived experiences of people

@@ -16,7 +16,7 @@ const Paragraph: React.FC<ParagraphProps> = ({ value }) => {
     const words = value.split(" ");
 
     return (
-        <p ref={element} className='paragraph1 font-[muli] text-3xl'>
+        <p ref={element} className='paragraph1 font-[muli] text-3xl tracking-wider space-x-4'>
             {
                 words.map((word, i) => {
                     const start = i / words.length;
