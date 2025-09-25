@@ -88,7 +88,7 @@ const Section2 = () => {
           </div>
           
           <div className='group transition-all duration-300 hover:-translate-y-1'>
-            <div className='aspect-video overflow-hidden relative rounded-md'>
+            <div className='aspect-video overflow-hidden relative rounded-md' onClick={() => navigate('/video-hub')}>
               <img src='https://s.tmimgcdn.com/scr/800x500/232900/dolunay-creative-portfolio-multi-purpose-amp-personal-html-template_232930-2-original.png' className='object-cover h-full w-full transition-transform duration-300 group-hover:scale-105'/>
               <div className='absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-all duration-300'></div>
               {/* Arrow icon inside image/video */}
@@ -109,7 +109,7 @@ const Section2 = () => {
         </div>
       </div>
     </div>
-    <div className="rounded-4xl font-[playfair] w-full mb-10 bg-[#1F3A4B] text-[#FAFDEE]">
+    <div className="rounded-4xl font-[playfair] w-full  bg-[#1F3A4B] text-[#FAFDEE]">
         <h1 className="mt-10 text-center text-[10.5vw] font-bold leading-[0.9] tracking-tighter lg:text-[14.6vw]">
           StoriesofChange
         </h1>

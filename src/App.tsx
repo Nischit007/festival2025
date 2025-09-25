@@ -9,6 +9,7 @@ import VirtualGallery from './pages/virtualGallery/VirtualGallery';
 import OrbitGallery from './pages/orbitGallery/OrbitGallery';
 import Lgbtq from './pages/about/SocialIssue/Lgbtq';
 import ScrollToTop from './context/ScrollOnTop';
+import VideosCollection from './pages/VideosCollection/VidoesCollection';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/media" element={<Media />} />
         <Route path="/lgbtq" element={<Lgbtq />} />
+        <Route path="/video-hub" element={<VideosCollection />} />
       </Routes>
     </>
   );

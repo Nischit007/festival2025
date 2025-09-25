@@ -55,8 +55,8 @@ const HomePage = () => {
   };
 
   return (
-    <div>
-        <div ref={page1Ref} className='page1 w-full h-screen bg-[#FAFDEE] overflow-hidden'>
+    <div className='overflow-hidden'>
+        <div ref={page1Ref} className='page1 w-full h-screen bg-[#FAFDEE]'>
           <div className='relative'>
          <div ref={cursorRef} className='cursor h-[3vw] w-[3vw] bg-[#C2F84F] rounded-full fixed z-10 flex justify-center items-center transform -translate-x-1/2 -translate-y-1/2'>
           <h3 className='text-[1.15vw] font-medium'></h3>
