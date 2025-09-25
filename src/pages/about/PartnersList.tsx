@@ -23,10 +23,10 @@ const PartnersList = () => {
                 </div>
                 
                
-                <h3 className="font-[anton] text-xl mb-2">
+                <h3 className="font-[playfair] text-xl mb-2">
                   {item.title}
                 </h3>
-                <p className="text-xs leading-relaxed font-medium">
+                <p className="text-sm leading-relaxed font-[muli]">
                   {item.description}
                 </p>
               </div>

@@ -27,6 +27,16 @@
     src: url('../public/fonts/anton.woff') format('woff'),
 }
 
+@font-face {
+    font-family: 'muli';
+    src: url('../public/fonts/muli.regular.ttf') format('ttf'),
+}
+
+@font-face {
+    font-family: 'playfair';
+    src: url('../public/fonts/playfair-display.bold.ttf') format('ttf'),
+}
+
 body {
     overflow-x: hidden;
   }
@@ -34,8 +44,7 @@ body {
 
 
 
-
-.underline-animation::after {
+/* .underline-animation::after {
     content: '';
     position: absolute;
     width: 0;
@@ -45,21 +54,21 @@ body {
     background-color: white;
     transition: all 0.3s ease;
     transform: translateX(-50%);
-}
+} */
 
-.underline-animation:hover::after {
+/* .underline-animation:hover::after {
     width: 100%;
-}
+} */
 
 /* Active state */
-.underline-animation.active::after {
+/* .underline-animation.active::after {
     width: 100%;
-}
+} */
 
 /* Glow effect on hover */
-.nav-item:hover {
+/* .nav-item:hover {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-}
+} */
 
 
 

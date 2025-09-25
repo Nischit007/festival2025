@@ -1,0 +1,9 @@
+.paragraph1{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.word1{
+    margin-right: 4px;
+    margin-top: 4px;
+}

@@ -40,9 +40,9 @@ const SocialIssue = () => {
   return (
     <>
      <div className='border-t-[1px] border-gray-300'></div>
-     <h3 className="font-[anton] text-3xl">Theme of change</h3>
+     <h3 className="font-[playfair] text-3xl">Theme of change</h3>
     <div>
-        <p className='font-medium text-3xl'>At the heart of Stories for Change 2025 are ten powerful Themes of Change — each one shining a light on a pressing issue that shapes our societies. These themes are not abstract ideas; they are lived realities told through stories of resilience, art, and activism. From confronting child marriage to fighting for climate justice, from amplifying indigenous voices to celebrating the role of art in activism, each theme invites you to step closer, listen deeply, and join the movement for change.</p>
+        <p className='font-[muli] text-3xl'>At the heart of Stories for Change 2025 are ten powerful Themes of Change — each one shining a light on a pressing issue that shapes our societies. These themes are not abstract ideas; they are lived realities told through stories of resilience, art, and activism. From confronting child marriage to fighting for climate justice, from amplifying indigenous voices to celebrating the role of art in activism, each theme invites you to step closer, listen deeply, and join the movement for change.</p>
     </div>
         {/* <div className="flex items-center gap-4 w-full cursor-pointer ">
             <div className="flex flex-col gap-2">
@@ -98,7 +98,7 @@ const SocialIssue = () => {
             {/* Content Overlay */}
             <div className="absolute bottom-0 left-0 right-0 p-4 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
               <div className="flex items-center justify-between">
-                <span className="text-white font-bold text-xl drop-shadow-lg">
+                <span className="text-white font-[muli] text-xl drop-shadow-lg">
                   {topic.title}
                 </span>
                 <div className="bg-[#C2F84F] rounded-full p-2 transform translate-x-4 translate-y-4 opacity-0 group-hover:translate-x-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
@@ -120,7 +120,7 @@ const SocialIssue = () => {
           </div>
 
           {/* Title with Hover Effect */}
-        <span className='text-xl font-medium text-gray-800 group-hover:text-[#C2F84F] transition-colors duration-300 flex items-center gap-2'>
+        <span className='text-xl font-[muli] text-gray-800 group-hover:text-[#C2F84F] transition-colors duration-300 flex items-center gap-2'>
   {topic.title}
   {/* Diagonal arrow icon (top-right direction) */}
   <svg 

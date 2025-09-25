@@ -2,21 +2,68 @@ import Video from '../../components/home/Video'
 import Section2 from './Section2'
 import exhibition from './../../assets/Exhibition.mp4'
 import { useNavigate } from 'react-router-dom';
+import gsap from 'gsap';
+import { useRef, useEffect } from 'react'; 
 
 const HomePage = () => {
-
+  const page1Ref = useRef<HTMLDivElement>(null);
+  const cursorRef = useRef<HTMLDivElement>(null);
   const navigate = useNavigate();
 
-    const handleClick = () => {
-        navigate('/about');
-    };
+  useEffect(() => {
+    const page1 = page1Ref.current;
+    const cursor = cursorRef.current;
+
+    if (page1 && cursor) {
+      const handleMouseMove = (dets: MouseEvent) => {
+        gsap.to(cursor, {
+          x: dets.x,
+          y: dets.y
+        });
+      };
+
+      const handleMouseEnter = () => {
+        gsap.to(cursor, {
+          scale: 1,
+          opacity:1
+        });
+      };
+
+      const handleMouseLeave = () => {
+        gsap.to(cursor, {
+          scale: 0,
+          opacity:0
+        });
+      };
+
+      // Add all event listeners
+      page1.addEventListener("mousemove", handleMouseMove);
+      page1.addEventListener("mouseenter", handleMouseEnter);
+      page1.addEventListener("mouseleave", handleMouseLeave);
+
+      // Cleanup function - remove all event listeners
+      return () => {
+        page1.removeEventListener("mousemove", handleMouseMove);
+        page1.removeEventListener("mouseenter", handleMouseEnter);
+        page1.removeEventListener("mouseleave", handleMouseLeave);
+      };
+    }
+  }, []); // Empty dependency array means this runs once on mount
+
+  const handleClick = () => {
+    navigate('/about');
+  };
+
   return (
     <div>
-        <div className='w-full h-screen bg-[#FAFDEE] overflow-hidden'>
+        <div ref={page1Ref} className='page1 w-full h-screen bg-[#FAFDEE] overflow-hidden'>
           <div className='relative'>
+         <div ref={cursorRef} className='cursor h-[3vw] w-[3vw] bg-[#C2F84F] rounded-full fixed z-10 flex justify-center items-center transform -translate-x-1/2 -translate-y-1/2'>
+          <h3 className='text-[1.15vw] font-medium'></h3>
+         </div>
         <Video/>
         </div>
-        <div className='absolute text-white top-10 left-10 w-full text-center pt-5 font-[anton]'>
+        <div className='absolute z-20 text-white top-10 left-10 w-full text-center pt-5 font-[anton]'>
         <div className='text-[6vw] uppercase leading-[7vw] flex items-center justify-center'>Stories</div>
         <div className='text-[6vw] uppercase leading-[7vw] flex items-start justify-center gap-2'>for
             <div className='h-[7vw] w-[16vw] rounded-full overflow-hidden' >
@@ -46,12 +93,13 @@ const HomePage = () => {
     active:scale-95
     absolute
     top-130
+    z-20
 ">
     Start Your Journey
 </button>
 </div>
 
-    <div className='absolute top-120 right-10 text-base font-bold text-white max-w-96 text-justify'>
+    <div className='absolute z-20 top-120 right-10 text-base font-[muli] font-black text-white max-w-96 text-justify'>
        <span>Join us in a global celebration of art and community philanthropy. Experience digital art, documentaries, short films, and paintings created by inspiring changemakers who are reimagining how communities give, share, and transform together.</span>
     </div>
         </div>

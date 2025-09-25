@@ -1,18 +1,29 @@
 import arthub from '../../assets/arthub.mp4'
 import virtualart from './../../assets/virtualart.mp4'
 import { useNavigate } from 'react-router-dom'
+import { Paragraph } from './Word'
+
+
+
+
 
 const Section2 = () => {
   const navigate = useNavigate()
+
+  const paragraph='Stories for Change is a global video and digital media project created by and for the Giving for Change Alliance and the wider #ShiftThePower movement. It celebrates community philanthropy, documents lived experiences of people building change from the ground up, and amplifies voices often left out of dominant development narratives.'
   
   return (
     <div className='h-auto w-full px-10 mt-14 mb-10'>
         <div className='flex flex-col gap-10'>
           <div>
-        <p className='font-medium text-3xl'> We're a global storytelling movement, uniting voices that shift the power. This year, we gather for the blazing 🔥 "Stories for Change Festival 2025" — a digital celebration of courage, community, and change. From powerful documentaries to striking art and fearless conversations, we're amplifying stories that demand to be heard. On December 5th, the world comes together online for one unforgettable festival of impact, inspiration, and unstoppable change. 🚀</p>
+        {/* <p className='font-medium text-3xl'>Stories for Change is a global video and digital media project created by and for the Giving for Change Alliance and the wider #ShiftThePower movement. It celebrates community philanthropy, documents lived experiences of people
+       building change from the ground up, and amplifies voices often left out of
+        dominant development narratives.</p> */}
         </div>
+        {/* <Paragraph value ={paragraph}/> */}
+        <Paragraph value={paragraph}/>
         <div className='border-t-[1px] border-gray-300'></div>
-        <h3 className='text-5xl font-[anton]'> Featured Stories</h3>
+        <h3 className='text-5xl font-[playfair]'> Featured Stories</h3>
         <div className='grid grid-cols-2 gap-5 cursor-pointer'>
             <div className='group transition-all duration-300 hover:-translate-y-1'>
               <div className='aspect-video overflow-hidden relative rounded-md' onClick={() => navigate('/art-hub')}>
@@ -26,7 +37,7 @@ const Section2 = () => {
                 </div>
               </div>
               <div className='flex justify-between items-center pt-2'>
-                <span className='text-2xl font-medium transition-colors duration-300 group-hover:text-[#C2F84F]'>Art Hub</span>
+                <span className='text-2xl font-[muli] transition-colors duration-300 group-hover:text-[#C2F84F]'>Art Hub</span>
                 <svg className="w-6 h-6 opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:-translate-y-0.5" fill="#C2F84F" viewBox="0 0 24 24">
                   <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
                 </svg>
@@ -45,7 +56,7 @@ const Section2 = () => {
               </div>
             </div>
             <div className='flex justify-between items-center pt-2'>
-              <span className='text-2xl font-medium transition-colors duration-300 group-hover:text-[#C2F84F]'>Virtual Gallery</span>
+              <span className='text-2xl font-[muli] transition-colors duration-300 group-hover:text-[#C2F84F]'>Virtual Gallery</span>
               <svg className="w-6 h-6 opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:-translate-y-0.5" fill="#C2F84F" viewBox="0 0 24 24">
                 <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
               </svg>
@@ -66,7 +77,7 @@ const Section2 = () => {
                 </div>
               </div>
               <div className='flex justify-between items-center pt-2'>
-                <span className='text-2xl font-medium transition-colors duration-300 group-hover:text-[#C2F84F]'>Gallery</span>
+                <span className='text-2xl font-[muli] transition-colors duration-300 group-hover:text-[#C2F84F]'>Gallery</span>
                 <svg className="w-6 h-6 opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:-translate-y-0.5" fill="#C2F84F" viewBox="0 0 24 24">
                   <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
                 </svg>
@@ -85,7 +96,7 @@ const Section2 = () => {
               </div>
             </div>
             <div className='flex justify-between items-center pt-2'>
-              <span className='text-2xl font-medium transition-colors duration-300 group-hover:text-[#C2F84F]'>Videos</span>
+              <span className='text-2xl transition-colors duration-300 group-hover:text-[#C2F84F] font-[muli]'>Videos</span>
               <svg className="w-6 h-6 opacity-0 group-hover:opacity-100 transition-all duration-300 transform group-hover:-translate-y-0.5" fill="#C2F84F" viewBox="0 0 24 24">
                 <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
               </svg>
