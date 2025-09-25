@@ -215,11 +215,11 @@ const VideosCollection: React.FC = () => {
                   height="100%"
                   config={{
                     youtube: {
-                      playerVars: { showinfo: 1 }
                     }
                   }}
                 />
               </div>
+              
 
               {/* Video Info */}
               <div className="p-10 text-white">
